@@ -20,11 +20,13 @@ Bu projenin amacı, kullanıcıların gelen e-posta bildirimlerini fiziksel çı
 
 1. Arduino IDE kurulumu gerçekleştirilmelidir.
 2. Gerekli kütüphaneler:
-   - WiFi.h
-   - HTTPClient.h
-   - ArduinoJson
-   - Adafruit_SSD1306
-   - ESP32Servo
+- WiFi.h
+- HTTPClient.h
+- ArduinoJson.h
+- Wire.h
+- Adafruit_GFX.h
+- Adafruit_SSD1306.h
+- ESP32Servo.h
 
 3. Telegram bot kurulumu:
    - `@BotFather` üzerinden bot oluşturun.
