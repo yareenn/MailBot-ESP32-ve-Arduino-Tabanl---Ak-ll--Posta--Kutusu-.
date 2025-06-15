@@ -31,13 +31,13 @@ Bu projenin amacı, kullanıcıların gelen e-posta bildirimlerini fiziksel çı
    - Token alın ve kodda ilgili bölüme yapıştırın.
 
 4. Donanım bağlantıları tamamlanmalıdır:
-   - ESP32’ye LED, buzzer, OLED ekran bağlanır.
+   - ESP32’ye buzzer, OLED ekran bağlanır.
    - Servo motor, Arduino üzerinden kontrol edilir.
    - ESP32 ve Arduino dijital pin ile haberleştirilir.
 
 ## Çalışma Prensibi
 
-- Kullanıcı Telegram üzerinden “/mailgeldi” komutunu gönderir.
+- Kullanıcı Telegram üzerinden komutunu gönderir.
 - ESP32 bu komutu algılar ve:
   - Buzzer ses verir,
   - OLED ekranda mesaj görüntülenir.
