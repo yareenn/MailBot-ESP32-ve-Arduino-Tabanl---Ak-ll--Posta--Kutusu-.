@@ -1,6 +1,6 @@
 # MailBot: ESP32 ve Arduino Tabanlı Akıllı Posta Kutusu
 
-MailBot, gelen bir e-posta bildirimiyle fiziksel tepki veren bir IoT projesidir. ESP32 üzerinden Telegram Bot kullanılarak gelen mesajlar algılanmakta ve buna bağlı olarak LED, buzzer, OLED ekran ve servo motor ile kullanıcıya bildirim sağlanmaktadır. Servo motor, ESP32'nin zarar görmesini önlemek amacıyla ayrı bir Arduino Uno ile kontrol edilmektedir.
+MailBot, gelen bir e-posta bildirimiyle fiziksel tepki veren bir IoT projesidir. ESP32 üzerinden Telegram Bot kullanılarak gelen mesajlar algılanmakta ve buna bağlı olarak buzzer, OLED ekran ve servo motor ile kullanıcıya bildirim sağlanmaktadır. Servo motor, ESP32'nin zarar görmesini önlemek amacıyla ayrı bir Arduino Uno ile kontrol edilmektedir.
 
 ## Proje Amacı
 
